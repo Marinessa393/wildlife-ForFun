@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.main__c {
+  background-color: #ccc;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1440px;
+  padding: 0 120px;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  font-family: inherit;
+}
